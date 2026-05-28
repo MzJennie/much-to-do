@@ -1,0 +1,21 @@
+NAME                           READY   STATUS    RESTARTS        AGE
+pod/backend-6dc7d5556d-5ttph   1/1     Running   3 (4m53s ago)   5m48s
+pod/backend-6dc7d5556d-brsfm   1/1     Running   3 (4m56s ago)   5m48s
+pod/mongodb-6fb89855f8-m4f7z   1/1     Running   0               5m58s
+
+NAME                      TYPE        CLUSTER-IP    EXTERNAL-IP   PORT(S)          AGE
+service/backend-service   NodePort    10.96.56.84   <none>        8080:30080/TCP   5m47s
+service/mongodb-service   ClusterIP   10.96.12.56   <none>        27017/TCP        5m58s
+
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/backend   2/2     2            2           5m48s
+deployment.apps/mongodb   1/1     1            1           5m58s
+
+NAME                                 DESIRED   CURRENT   READY   AGE
+replicaset.apps/backend-6dc7d5556d   2         2         2       5m48s
+replicaset.apps/mongodb-6fb89855f8   1         1         1       5m58s
+NAME              TYPE        CLUSTER-IP    EXTERNAL-IP   PORT(S)          AGE
+backend-service   NodePort    10.96.56.84   <none>        8080:30080/TCP   6m
+mongodb-service   ClusterIP   10.96.12.56   <none>        27017/TCP        6m11s
+NAME              CLASS    HOSTS   ADDRESS   PORTS   AGE
+backend-ingress   <none>   *                 80      6m
