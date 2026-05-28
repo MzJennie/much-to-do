@@ -1,0 +1,3 @@
+NAME                 IMAGE              COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+muchtodo-backend-1   muchtodo-backend   "./main"                 backend   23 minutes ago   Up 23 minutes (healthy)   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp
+muchtodo-mongo-1     mongo:6.0          "docker-entrypoint.s…"   mongo     23 minutes ago   Up 23 minutes             0.0.0.0:27017->27017/tcp, [::]:27017->27017/tcp

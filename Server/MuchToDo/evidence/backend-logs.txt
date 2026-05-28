@@ -1,0 +1,20 @@
+backend-1  | {"time":"2026-05-28T10:01:07.007929146Z","level":"INFO","msg":"request completed","request_id":"cfe19095-0c10-4c7f-94a6-74be43a0cf52","method":"GET","path":"/health","ip":"::1","user_agent":"Wget","status":200,"latency":703245}
+backend-1  | [GIN] 2026/05/28 - 10:01:07 | 200 |     835.238µs |             ::1 | GET      "/health"
+backend-1  | {"time":"2026-05-28T10:01:37.075301913Z","level":"INFO","msg":"request started","request_id":"1db6daba-d754-48da-b737-01b1a614e823","method":"GET","path":"/health","ip":"::1","user_agent":"Wget"}
+backend-1  | {"time":"2026-05-28T10:01:37.076186038Z","level":"INFO","msg":"request completed","request_id":"1db6daba-d754-48da-b737-01b1a614e823","method":"GET","path":"/health","ip":"::1","user_agent":"Wget","status":200,"latency":938195}
+backend-1  | [GIN] 2026/05/28 - 10:01:37 | 200 |      994.18µs |             ::1 | GET      "/health"
+backend-1  | {"time":"2026-05-28T10:02:07.161607547Z","level":"INFO","msg":"request started","request_id":"e5a109e5-b5c5-48e0-a9a4-f263ff1139a8","method":"GET","path":"/health","ip":"::1","user_agent":"Wget"}
+backend-1  | {"time":"2026-05-28T10:02:07.162328015Z","level":"INFO","msg":"request completed","request_id":"e5a109e5-b5c5-48e0-a9a4-f263ff1139a8","method":"GET","path":"/health","ip":"::1","user_agent":"Wget","status":200,"latency":773047}
+backend-1  | [GIN] 2026/05/28 - 10:02:07 | 200 |     793.623µs |             ::1 | GET      "/health"
+backend-1  | {"time":"2026-05-28T10:02:37.261123685Z","level":"INFO","msg":"request started","request_id":"f96cb076-f33c-482b-b9ab-b15c03bd5e10","method":"GET","path":"/health","ip":"::1","user_agent":"Wget"}
+backend-1  | {"time":"2026-05-28T10:02:37.261666437Z","level":"INFO","msg":"request completed","request_id":"f96cb076-f33c-482b-b9ab-b15c03bd5e10","method":"GET","path":"/health","ip":"::1","user_agent":"Wget","status":200,"latency":577476}
+backend-1  | [GIN] 2026/05/28 - 10:02:37 | 200 |     596.471µs |             ::1 | GET      "/health"
+backend-1  | {"time":"2026-05-28T10:02:52.456453941Z","level":"INFO","msg":"request started","request_id":"7073a4fb-0fca-45e0-9e09-b1af11342a04","method":"GET","path":"/health","ip":"172.18.0.1","user_agent":"curl/7.68.0"}
+backend-1  | {"time":"2026-05-28T10:02:52.456992558Z","level":"INFO","msg":"request completed","request_id":"7073a4fb-0fca-45e0-9e09-b1af11342a04","method":"GET","path":"/health","ip":"172.18.0.1","user_agent":"curl/7.68.0","status":200,"latency":572766}
+backend-1  | [GIN] 2026/05/28 - 10:02:52 | 200 |     609.857µs |      172.18.0.1 | GET      "/health"
+backend-1  | {"time":"2026-05-28T10:03:07.342841169Z","level":"INFO","msg":"request started","request_id":"1d34add1-9652-4e12-910b-1892ba4b1769","method":"GET","path":"/health","ip":"::1","user_agent":"Wget"}
+backend-1  | {"time":"2026-05-28T10:03:07.34333034Z","level":"INFO","msg":"request completed","request_id":"1d34add1-9652-4e12-910b-1892ba4b1769","method":"GET","path":"/health","ip":"::1","user_agent":"Wget","status":200,"latency":529073}
+backend-1  | [GIN] 2026/05/28 - 10:03:07 | 200 |     549.931µs |             ::1 | GET      "/health"
+backend-1  | {"time":"2026-05-28T10:03:16.093798645Z","level":"INFO","msg":"request started","request_id":"b414f8b1-58dc-45cd-89b7-9088eeffb2ba","method":"GET","path":"/ping","ip":"172.18.0.1","user_agent":"curl/7.68.0"}
+backend-1  | {"time":"2026-05-28T10:03:16.093857821Z","level":"INFO","msg":"request completed","request_id":"b414f8b1-58dc-45cd-89b7-9088eeffb2ba","method":"GET","path":"/ping","ip":"172.18.0.1","user_agent":"curl/7.68.0","status":200,"latency":133218}
+backend-1  | [GIN] 2026/05/28 - 10:03:16 | 200 |     146.401µs |      172.18.0.1 | GET      "/ping"
